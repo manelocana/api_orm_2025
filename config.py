@@ -46,9 +46,9 @@ def get_db():
 
 """
 Manejo de variables de entorno para contraseñas:
-Como mencioné antes, las contraseñas no deben guardarse en el código. 
+Las contraseñas no deben guardarse en el código. 
 Utiliza una librería como python-dotenv o las variables de entorno del sistema 
 operativo para gestionar las credenciales de manera más segura.
 
-podemos enctyptarlas con bcrypt o algo asi ** nombre a confirmar
+podemos enctyptarlas con bcrypt o algo asi
 """

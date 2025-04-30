@@ -24,8 +24,8 @@ class UserResponse(BaseModel):
 
 
 """
-Posible mejora: Podrías añadir una validación para el password, 
-dependiendo de tus requisitos de seguridad (por ejemplo, longitud mínima, caracteres especiales, etc.).
+Podemos añadir una validación para el password, 
+dependiendo de los requisitos de seguridad (por ejemplo, longitud mínima, caracteres especiales, etc.).
 con 'constr' de pydantic, por ejemplo
 
 O encryptar el password directamente, seria lo ideal
